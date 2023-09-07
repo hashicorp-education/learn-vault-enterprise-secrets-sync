@@ -1,0 +1,22 @@
+{
+   "Version": "2012-10-17",
+   "Statement": [
+      {
+            "Sid": "SecretsManagerAccess",
+            "Effect": "Allow",
+            "Action": [
+               "secretsmanager:DescribeSecret",
+               "secretsmanager:GetSecretValue",
+               "secretsmanager:CreateSecret",
+               "secretsmanager:PutSecretValue",
+               "secretsmanager:UpdateSecret",
+               "secretsmanager:UpdateSecretVersionStage",
+               "secretsmanager:DeleteSecret",
+               "secretsmanager:RestoreSecret",
+               "secretsmanager:TagResource",
+               "secretsmanager:UntagResource"
+            ],
+            "Resource": "*"
+      }
+   ]
+}
