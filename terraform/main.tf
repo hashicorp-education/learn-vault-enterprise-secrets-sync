@@ -1,9 +1,9 @@
 resource "aws_iam_user" "secrets_sync" {
-  name = "vsult_secrets_sync"
+  name = "vault_secrets_sync_user"
   path = "/"
 
   tags = {
-    tag-key = "vault"
+    tag-key = "vault-secrets-sync-tutorial"
   }
 }
 
